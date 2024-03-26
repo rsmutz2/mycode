@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+"""Lab 13 Challenge:  print() and input()
+   Ask input (user's name) and day of week, then print both concatenated to std out."""
+
+# The following function contains code to accomplish task
+def main():
+
+    # ask user's name and wait for user input
+    user_input = input("Good Morning! My name is Ronny. What's your name? ")
+
+    # display input
+    print("Hi," + user_input"! Good to meet you!")
+    
+    # ask user what day it is; wait for user input
+    user_input = input("Can you tell me what day of the week it is? ")
+
+    #
+
+
+    # display user inputs together 
+   # print(f"Hi, {name}! Have a great {day}!")
+    
+
+    
+main()
+
+
