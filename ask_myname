@@ -6,19 +6,19 @@
 def main():
 
     # ask user's name and wait for user input
-    user_input = input("Good Morning! My name is Ronny. What's your name? ")
+    user_name = input("Good Morning! My name is Ronny. What's your name? ")
 
     # display input
-    print("Hi," + user_input"! Good to meet you!")
+    print("Hi, " + user_name + "! Good to meet you!")
     
     # ask user what day it is; wait for user input
-    user_input = input("Can you tell me what day of the week it is? ")
+    what_day = input("Can you tell me what day of the week it is? ")
 
-    #
+    # unused option to  display the two user inputs together
+    # print("Great! Thanks, " + user_name + "! Have a great " + what_day + "!")
 
-
-    # display user inputs together 
-   # print(f"Hi, {name}! Have a great {day}!")
+    # option I chose (f-print) to display both user inputs together
+    print(f"Thanks so much, {user_name}! Have a great {what_day}!")
     
 
     
